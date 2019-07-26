@@ -1,0 +1,201 @@
+{
+  "index.html": {
+    "resources": [
+      "imooc-chatlist.html",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "fontico/iconfont.css",
+      "css/header.css"
+    ],
+    "refer": [
+      "imooc-me.html",
+      "imooc-discover.html",
+      "imooc-contact.html",
+      "imooc-chatlist.html"
+    ]
+  },
+  "login.html": {
+    "refer": [
+      "index.html",
+      "login.html"
+    ],
+    "resources": [
+      "js/mui.min.js",
+      "css/registLogin/util.css",
+      "css/registLogin/main.css",
+      "js/app.js",
+      "css/registLogin/arrow.jpg"
+    ]
+  },
+  "imooc-me.html": {
+    "refer": [
+      "myface.html",
+      "mynickname.html",
+      "myQRCode.html",
+      "login.html"
+    ],
+    "resources": [
+      "css/mui.min.css",
+      "js/mui.min.js",
+      "js/app.js",
+      "image/face-default-cat.png",
+      "image/qrcode.png"
+    ]
+  },
+  "myface.html": {
+    "refer": [
+      "plugin/v3.1.6/myface-uploader.html"
+    ],
+    "resources": [
+      "css/mui.min.css",
+      "css/header.css",
+      "js/mui.min.js",
+      "js/app.js",
+      "plugin/cropper/images/picture.jpg"
+    ]
+  },
+  "imooc-discover.html": {
+    "refer": [
+      "searchFriends.html",
+      "scanme.html"
+    ],
+    "resources": [
+      "css/mui.min.css",
+      "js/mui.min.js",
+      "image/friends.png",
+      "image/addfriends.png",
+      "image/scanscan.png"
+    ]
+  },
+  "searchFriends.html": {
+    "refer": [
+      "searchFriendsResult.html"
+    ],
+    "resources": [
+      "css/mui.min.css",
+      "css/header.css",
+      "js/mui.min.js",
+      "js/app.js"
+    ]
+  },
+  "imooc-contact.html": {
+    "refer": [
+      "chatting.html"
+    ],
+    "resources": [
+      "css/mui.min.css",
+      "css/mui.indexedlist.css",
+      "js/mui.min.js",
+      "js/mui.indexedlist.js",
+      "js/app.js",
+      "js/nickname.js"
+    ]
+  },
+  "imooc-chatlist.html": {
+    "refer": [
+      "chatting.html"
+    ],
+    "resources": [
+      "css/mui.min.css",
+      "js/mui.min.js",
+      "js/app.js"
+    ]
+  },
+  "searchFriendsResult.html": {
+    "href": "searchFriendsResult.html",
+    "resources": [
+      "js/mui.js",
+      "css/mui.css",
+      "css/header.css",
+      "js/app.js"
+    ],
+    "refer": [
+      "index.html"
+    ],
+    "priority": 0
+  },
+  "scanme.html": {
+    "href": "scanme.html",
+    "resources": [
+      "js/mui.js",
+      "css/mui.css",
+      "css/header.css",
+      "js/app.js"
+    ],
+    "refer": [
+      "searchFriendsResult.html"
+    ],
+    "priority": 0
+  },
+  "chatting.html": {
+    "href": "chatting.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/header.css",
+      "css/chat.css",
+      "js/mui.min.js",
+      "js/app.js",
+      "mp3/di_didi.mp3",
+      "mp3/send.mp3"
+    ],
+    "refer": [
+      "imooc-chatlist.html"
+    ],
+    "priority": 0
+  },
+  "myQRCode.html": {
+    "href": "myQRCode.html",
+    "resources": [
+      "js/mui.js",
+      "css/mui.css",
+      "css/header.css",
+      "js/app.js",
+      "image/download.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "plugin/v3.1.6/index.html": {
+    "href": "plugin/v3.1.6/index.html",
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "plugin/v3.1.6/css/cropper.css",
+      "plugin/v3.1.6/css/main.css",
+      "plugin/v3.1.6/js/cropper.js",
+      "css/registLogin/arrow.jpg"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "plugin/v3.1.6/myface-uploader.html": {
+    "href": "plugin/v3.1.6/myface-uploader.html",
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "css/header.css",
+      "plugin/v3.1.6/css/cropper.css",
+      "plugin/v3.1.6/css/main.css",
+      "plugin/v3.1.6/js/cropper.js",
+      "js/app.js",
+      "image/upload.png"
+    ],
+    "refer": [
+      "plugin/v3.1.6/index.html"
+    ],
+    "priority": 0
+  },
+  "mynickname.html": {
+    "href": "mynickname.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/header.css",
+      "js/mui.min.js",
+      "js/app.js"
+    ],
+    "refer": [
+      "imooc-me.html"
+    ],
+    "priority": 0
+  }
+}
